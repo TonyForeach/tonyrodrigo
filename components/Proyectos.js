@@ -7,7 +7,7 @@ const Proyectos = () => {
       <div className="row row-cols-lg-2 row-gap-4 mt-5">
         <div className="col">
           <div className="card">
-            <Image src="/images/registro.png" className="card-img-top" alt="..." width={1000} height={1000}/>
+            <Image src="/portfoliotony/images/registro.png" className="card-img-top" alt="..." width={1000} height={1000}/>
             <div className="card-body fs-4">
               <h5 className="card-title fs-2 fw-bold mb-4">html, css, js, php, gsap</h5>
               <p className="card-text">
@@ -24,7 +24,7 @@ const Proyectos = () => {
         </div>
         <div className="col">
           <div className="card">
-            <Image src="/images/registro.png" className="card-img-top" alt="..." width={1000} height={1000}/>
+            <Image src="/portfoliotony/images/registro.png" className="card-img-top" alt="..." width={1000} height={1000}/>
             <div className="card-body fs-4">
               <h5 className="card-title fs-2 fw-bold mb-4">html, css, js, php, gsap</h5>
               <p className="card-text">
@@ -41,7 +41,7 @@ const Proyectos = () => {
         </div>
         <div className="col">
           <div className="card">
-            <Image src="/images/registro.png" className="card-img-top" alt="..." width={1000} height={1000}/>
+            <Image src="/portfoliotony/images/registro.png" className="card-img-top" alt="..." width={1000} height={1000}/>
             <div className="card-body fs-4">
               <h5 className="card-title fs-2 fw-bold mb-4">html, css, js, php, gsap</h5>
               <p className="card-text">
@@ -58,7 +58,7 @@ const Proyectos = () => {
         </div>
         <div className="col">
           <div className="card">
-            <Image src="/images/registro.png" className="card-img-top" alt="..." width={1000} height={1000}/>
+            <Image src="/portfoliotony/images/registro.png" className="card-img-top" alt="..." width={1000} height={1000}/>
             <div className="card-body fs-4">
               <h5 className="card-title fs-2 fw-bold mb-4">html, css, js, php, gsap</h5>
               <p className="card-text">
