@@ -82,9 +82,13 @@ export default function Home() {
           toggleActions: "play none none none",
         },
       })
-        .from('#sobremi .heading, #habilidades .heading', { duration: 1, y: 50, opacity: 0 })
-        .from(['#sobremi .intereses', '#habilidades .habilidades-duras', '#habilidades .habilidades-blandas'], { duration: 1, y: 50, opacity: 0 }, "-=0.5")
-        .from("#sobremi .col-icon, #habilidades .html, #habilidades .css, #habilidades .javascript, #habilidades .php, #habilidades .java, #habilidades .laravel, #habilidades .react, #habilidades .angular, #habilidades .bootstrap, #habilidades .database, #habilidades .git, #habilidades .wordpress", 
+      .from('#sobremi .heading', { duration: 1, y: 50, opacity: 0 })
+      .from('#sobremi .intereses', { duration: 1, y: 50, opacity: 0 }, "-=0.5")
+      .from("#sobremi .col-icon", { duration: 1, opacity: 0, stagger: 0.2 }, "-=0.5")
+      .from('#habilidades .heading', { duration: 1, y: 50, opacity: 0 })
+      .from('#habilidades .habilidades-duras', { duration: 1, y: 50, opacity: 0 }, "-=0.5")
+      .from('#habilidades .habilidades-blandas', { duration: 1, y: 50, opacity: 0 }, "-=0.5")
+      .from('#habilidades .html5, #habilidades .css3, #habilidades .square-js, #habilidades .php, #habilidades .java, #habilidades .laravel, #habilidades .react, #habilidades .angular, #habilidades .bootstrap, #habilidades .database, #habilidades .git, #habilidades .wordpress', 
         { duration: 1, y: 50, opacity: 0, stagger: 0.1 }, "-=0.5");
     };
 
