@@ -118,3 +118,15 @@ main {
   }
   
 }
+
+/* ---------------------proyectos---------------------- */
+
+.btn-outline-greenosc{
+  color:#007272 !important;
+  border: 1px solid #007272 !important;
+  border-radius: 5px;
+}
+.btn-outline-greenosc:hover{
+  background-color: #007272 !important;
+  color: #FFF !important;
+}

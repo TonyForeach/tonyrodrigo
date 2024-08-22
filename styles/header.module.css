@@ -1,6 +1,6 @@
 .hero{
     height: 400px;
-    background-image: url('/portfoliotony/images/teclado-movil.jpg');
+    background-image: url('/images/teclado-movil.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -55,7 +55,7 @@
     }
 
     .hero{
-        background-image: url('/portfoliotony/images/teclado-banner.svg');
+        background-image: url('/images/teclado-banner.svg');
         background-repeat: no-repeat;
         background-size: cover;
         filter: brightness(90%);
