@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-   output: "export",
+const nextConfig = {
+  basePath: '/tonyrodrigo',
+  images: {
+    loader: 'imgix',
+    path: '',
+  },
 
   async headers() {
     return [
