@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  trailingSlash:true,
+module.exports = {
   basePath: '/tonyrodrigo',
-  output: "export",
+  output:"export",
   images: {
-    unoptimized: true, // Puede ayudar si estás enfrentando problemas con la optimización de imágenes
+    loader: 'imgix',
+    path: '',
   },
 
   async headers() {
