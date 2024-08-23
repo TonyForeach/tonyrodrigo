@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/tonyrodrigo',
   images: {
     loader: 'imgix',
     path: '',

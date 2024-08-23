@@ -134,7 +134,7 @@ export default function Header() {
           </div>
           <div className={`order-1 order-lg-2 ${styles.fotoface}`}>
             <Image
-              src="/images/foto-face.svg"
+              src="./images/foto-face.svg"
               width={180}
               height={180}
               alt={"Foto de Perfil"}
