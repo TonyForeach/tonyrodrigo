@@ -11,7 +11,7 @@ const proyectosData = [
     title: "Campaña Old Spice",
     tecnologias: ["html", "bootstrap", "css", "javascript", "gsap", "mysql"],
     descripcion: "Desarrollé un sistema de registro de usuarios con validación en tiempo real y un panel de administración para monitorear los registros en la campaña.",
-    image: "/images/cap-registro.png",
+    image: "./images/cap-registro.png",
   },
   {
     title: "Diseño Web ISPerú IX",
