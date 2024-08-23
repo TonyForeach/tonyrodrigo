@@ -17,13 +17,13 @@ const proyectosData = [
     title: "Diseño Web ISPerú IX",
     tecnologias: ["wordpress", "Bricks Builder", "css"],
     descripcion: "Descripción del proyecto 2",
-    image: "/images/cap-isperuix.png",
+    image: "./images/cap-isperuix.png",
   },
   {
     title: "Diseño web de Yuriko",
     tecnologias: ["wordpress", "php", "woocomerce"],
     descripcion: "Descripción del proyecto 3",
-    image: "/images/web-yuriko.png",
+    image: "./images/web-yuriko.png",
   },
   // Agrega más proyectos según sea necesario
 ];

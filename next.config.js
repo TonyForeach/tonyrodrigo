@@ -2,7 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash:true,
-//   output:"export",
+  basePath: '/tonyrodrigo',
+//   output: "export",
+  images: {
+    unoptimized: true, // Puede ayudar si estás enfrentando problemas con la optimización de imágenes
+  },
 
   async headers() {
     return [
